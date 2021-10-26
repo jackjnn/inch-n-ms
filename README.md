@@ -15,4 +15,4 @@ Developer Stories
 
 This app was fun to build. The trickiest part was complications that arose from null vs empty checks. Also converting the edit text to string to double and vice versa was a bit tricky but a fun afternoon project.
 
-![inch-n-m's-gif.gif]()
+![alt text](https://github.com/jackjnn/inch-n-ms/blob/master/inch-n-m's-gif.gif)
