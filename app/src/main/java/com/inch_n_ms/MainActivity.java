@@ -41,15 +41,15 @@ public class MainActivity extends AppCompatActivity {
                 else if (minches.getText()!= null && minches.getText().length() > 0)
                     //Editable inches = minches.getText();
                     mmeters.setText("Result: "+
-                            String.valueOf(
+                            String.format("%.2f", (
                                     Double.parseDouble(minches.getText().toString()) *
-                                    0.0254));
+                                    0.0254)));
 
                 else if (mmeters.getText()!= null && mmeters.getText().length() > 0)
                     minches.setText("Result: "+
-                        String.valueOf(
+                            String.format("%.2f", (
                                 Double.parseDouble(mmeters.getText().toString()) *
-                                        39.3701));
+                                        39.3701)));
 
             }
         });
